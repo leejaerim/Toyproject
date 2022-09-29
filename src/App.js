@@ -8,7 +8,7 @@ function App() {
   const navi = useNavigate();
   return (
     <div className="App">
-      {isLogin ? <div>TEST</div> : <div><button onClick={()=>{navi('/login');}}></button></div> }
+      {isLogin ? <div>로그인 상태 입니다.</div> : <div><button onClick={()=>{navi('/login');}}>로그인이 필요합니다.</button></div> }
     </div>
   );
 }
